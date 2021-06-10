@@ -1,0 +1,4 @@
+{
+  "ATTRIBUTES": ["STR", "INT", "AGL", "HP", "ATK", "DEF"],
+  "STATUSES": ["freezed", "burned", "electrocuted", "shot", "beaten"]
+}

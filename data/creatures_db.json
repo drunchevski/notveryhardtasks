@@ -1,0 +1,114 @@
+{
+  "orleon": {
+    "attributes": {
+      "STR": 8,
+      "INT": 2,
+      "AGL": 4,
+      "HP": 8,
+      "ATK": 4,
+      "DEF": 2
+    },
+    "statuses": {
+      "freezed": 123,
+      "burned": 101,
+      "electrocuted": 18,
+      "shot": 215,
+      "beaten": 201
+    }
+  },
+  "fury": {
+    "attributes": {
+      "STR": 10,
+      "INT": 4,
+      "AGL": 2,
+      "HP": 5,
+      "ATK": 9,
+      "DEF": 4
+    },
+    "statuses": {
+      "freezed": 35,
+      "burned": 99,
+      "electrocuted": 64,
+      "shot": 105,
+      "beaten": 413
+    }
+  },
+  "buldiga": {
+    "attributes": { "STR": 2, "INT": 4, "AGL": 6, "HP": 4, "ATK": 9, "DEF": 3 },
+    "statuses": {
+      "freezed": 10,
+      "burned": 14,
+      "electrocuted": 422,
+      "shot": 105,
+      "beaten": 73
+    }
+  },
+  "everlio": {
+    "attributes": {
+      "STR": 2,
+      "INT": 9,
+      "AGL": 7,
+      "HP": 3,
+      "ATK": 2,
+      "DEF": 0
+    },
+    "statuses": {
+      "freezed": 10,
+      "burned": 0,
+      "electrocuted": 0,
+      "shot": 0,
+      "beaten": 554
+    }
+  },
+  "marisa": {
+    "attributes": {
+      "STR": 2,
+      "INT": 9,
+      "AGL": 5,
+      "HP": 4,
+      "ATK": 5,
+      "DEF": 4
+    },
+    "statuses": {
+      "freezed": 11,
+      "burned": 34,
+      "electrocuted": 11,
+      "shot": 45,
+      "beaten": 30
+    }
+  },
+  "chunky": {
+    "attributes": {
+      "STR": 8,
+      "INT": 1,
+      "AGL": 1,
+      "HP": 14,
+      "ATK": 6,
+      "DEF": 9
+    },
+    "statuses": {
+      "freezed": 0,
+      "burned": 443,
+      "electrocuted": 12,
+      "shot": 112,
+      "beaten": 99
+    }
+  },
+  "saprano": {
+    "attributes": {
+      "STR": 4,
+      "INT": 4,
+      "AGL": 4,
+      "HP": 4,
+      "ATK": 4,
+      "DEF": 0
+    },
+    "statuses": {
+      "freezed": 641,
+      "burned": 0,
+      "electrocuted": 0,
+      "shot": 3,
+      "beaten": 7
+    }
+  }
+}
