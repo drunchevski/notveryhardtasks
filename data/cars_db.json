@@ -1,0 +1,93 @@
+{
+  "owners": [
+    {
+      "name": "Aston Debia",
+      "age": 63,
+      "currentFines": 8732,
+      "id": "4hFP4petQV"
+    },
+    {
+      "name": "Lucas Paul",
+      "age": 88,
+      "currentFines": 12300,
+      "id": "uCfFwlXBXS"
+    },
+    {
+      "name": "Johan Carlino",
+      "age": 32,
+      "currentFines": 4200,
+      "id": "q7lrxl2Ytg"
+    },
+    {
+      "name": "Van Carlo-Cerailio",
+      "age": 43,
+      "currentFines": 900,
+      "id": "xjsRpGsx5e"
+    }
+  ],
+  "cars": [
+    {
+      "brand": "ferrari",
+      "color": "red",
+      "wanted": false,
+      "ownerID": "uCfFwlXBXS",
+      "plateID": "HU1LO"
+    },
+    {
+      "brand": "aston martin",
+      "color": "gray",
+      "wanted": true,
+      "ownerID": "xjsRpGsx5e",
+      "plateID": "51D0R"
+    },
+    {
+      "brand": "ferrari",
+      "color": "red",
+      "wanted": true,
+      "ownerID": "q7lrxl2Ytg",
+      "plateID": "PL0HO"
+    },
+    {
+      "brand": "mercedes",
+      "color": "white",
+      "wanted": false,
+      "ownerID": "uCfFwlXBXS",
+      "plateID": "MRA7Y"
+    },
+    {
+      "brand": "ferrari",
+      "color": "yellow",
+      "wanted": false,
+      "ownerID": "q7lrxl2Ytg",
+      "plateID": "UE80K"
+    },
+    {
+      "brand": "pagani",
+      "color": "black",
+      "wanted": true,
+      "ownerID": "q7lrxl2Ytg",
+      "plateID": "L0S3R"
+    },
+    {
+      "brand": "lambo",
+      "color": "yellow",
+      "wanted": true,
+      "ownerID": "zz21asuq2Y",
+      "plateID": "WR0N9"
+    },
+    {
+      "brand": "lada",
+      "color": "blue",
+      "wanted": true,
+      "ownerID": "zz21asuq2Y",
+      "plateID": "W90N7"
+    },
+    {
+      "brand": "ferrari",
+      "color": "red",
+      "wanted": true,
+      "ownerID": "uCfFwlXBXS",
+      "plateID": "G08N0"
+    }
+  ]
+}
