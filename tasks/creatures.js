@@ -62,4 +62,27 @@ const compareCreatures = (db, creatureA, creatureB, attr) => {
 // console.log(compareCreatures(db, "buldiga", "fury", "INT"));
 // console.log(compareCreatures(db, "saprano", "everlio", "DEF"));
 
+// Для заданного существа вернуть массив из всех, кто будет им "побежден" в бою
+// Формула урона: ATK + значение его максималного атрибута из числа STR INT и AGL
+// Формула защиты: DEF + также значение его максимального атрибута
+// Итоговая формула победы: ATK - DEF (Ничью считать проигрышем)
+// fightAll(db, 'orleon') -> ['buldiga', 'everlio', 'saprano'];
+
+const fightAll = (db, specie) => {
+  const attackerAttrs = getAttributes(db, specie);
+  const getMaxAttr = ({ STR, INT, AGL }) => Math.max(STR, INT, AGL);
+  const attack = attackerAttrs.ATK + getMaxAttr(attackerAttrs);
+
+  const results = [];
+  for (const defender in db) {
+    if (defender === specie) continue;
+    const defenderAttrs = getAttributes(db, defender);
+    const defense = defenderAttrs.DEF + getMaxAttr(defenderAttrs);
+    if (attack - defense > 0) results.push(defender);
+  }
+  return results;
+};
+
+console.log(fightAll(db, "orleon"));
+
 module.exports = { harmedBySpecie, statsByStatus, specieByStatusStats };
