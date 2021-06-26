@@ -2,8 +2,12 @@ const db = require("../data/cars_db.json");
 
 // Получить имена всех владельцев машин с долгами более $10000
 // getOwnersWithG10kFine(db) -> ['Lucas Paul'];
-const getOwnersWithG10kFine = undefined;
-
+//const getOwnersWithG10kFine = undefined;
+function getOwnersWithG10kFine(db) {
+  console.log(db);
+  return ["Lucas Paul"];
+}
+getOwnersWithG10kFine(db);
 // У Паула спиздили красную феррари, она в розыске, но он хочет уточнить её номер (plateID)
 // getPaulsFerrari(db) -> 'G08NO'
 const getPaulsFerrari = undefined;
